@@ -12,11 +12,49 @@
   padding: 0;
 }
 
-body {
+/* body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+} */
+
+#encabezado {
+  background-color: var(--Amarillo);
+}
+
+.w50 {width: 50%;}
+.w100 {width: 100%;}
+.nave {display: none;}
+.d-flex {display: flex;}
+.f-grow {flex-grow: 1;}
+.f-dir-c {flex-direction: column;}
+.jcont-c {justify-content: center;}
+.b-b {box-sizing: border-box;}
+.icono_nav {
+  width: 40px;
+  height: 40px;
+  background-color: #0044AA;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+#navegacion :hover .nave {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nave ul{
+  list-style-type: none;
+  
+  text-align: center;
+  
 }
