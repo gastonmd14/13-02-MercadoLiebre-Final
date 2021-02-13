@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <%- include('../partials/head', {title: 'Inicio'}) %>
+  <body class="d-flex-c">
+    <%- include('../partials/headerNavbar') %>
+    <main>
+      <section>
+        <form action="" method="POST">
+            <section >                        
+                <input type="text" placeholder="Nombre de Usuario">
+            </section>
+            <section >
+                <input type="password" name="contraseña" id="contraseña" placeholder="Elegi tu contraseña">
+            </section>
+            <section>
+                <input type="submit" value="Enviar">
+            </section>                    
+        </form>
+        
+      </section>
+    </main>
+    <%- include('../partials/footer') %>
+  </body>
+</html>
