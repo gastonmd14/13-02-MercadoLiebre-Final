@@ -13,20 +13,30 @@
   font-family: 'Roboto', sans-serif;
 }
 
-/* body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+body {
+  background-color: white;
 }
 
-a {
-  color: #00B7FF;
-} */
-
-.titles {font-size: 24px;}
+.titles {
+  font-size: 24px;
+  color: var(--Gris_oscuro);
+  margin: 20px 15px
+}
 .parragraph {font-size: 12px;}
-.price {font-size: 18px;}
-.discount {font-size: 16px;}
-.description {font-size: 16px;}
+.price {
+  font-size: 18px;
+  padding: 20px;
+}
+.discount {
+  font-size: 16px;
+  color: var(--Verde);
+  padding: 20px
+}
+.description {
+  font-size: 16px;
+  color: var(--Gris_oscuro);
+  padding: 0 20px
+}
 
 
 #encabezado {
@@ -65,4 +75,28 @@ a {
   
   text-align: center;
   
+}
+
+#principal {
+  background-color: var(--Gris_claro);
+  
+  margin: 20px;
+}
+.art {background-color: white;}
+.truck {
+  color: var(--Verde);
+  padding: 20px;
+}
+
+#pie {
+  margin: 20px;
+}
+
+.ico {
+  color: var(--Celeste);
+  margin: 20px;
+}
+
+.copy {
+  margin: 20px;
 }
