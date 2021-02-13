@@ -31,16 +31,19 @@ body {
 .price {
   font-size: 18px;
   padding: 20px;
+  width: 30%;
 }
 .discount {
   font-size: 16px;
   color: var(--Verde);
-  padding: 20px
+  padding: 20px;
+  width: 70%;
 }
 .description {
   font-size: 16px;
   color: var(--Gris_oscuro);
-  padding: 0 20px
+  padding: 20px;
+  display: block;  
 }
 
 /* Header */
@@ -53,7 +56,8 @@ body {
 .w100 {width: 100%;}
 .nave {display: none;}
 .d-flex {display: flex;}
-.f-grow {flex-grow: 1;}
+.f-grow1 {flex-grow: 1;}
+.f-dir-r {flex-direction: row;}
 .f-dir-c {flex-direction: column;}
 .jcont-c {justify-content: center;}
 .b-b {box-sizing: border-box;}
@@ -67,6 +71,8 @@ body {
   border-radius: 5px;
   margin: 20px 0;
 }
+
+.container-nav :hover {background-color: #0022AA}
 
 /* Navbar */
 
@@ -90,18 +96,24 @@ a {
 
 #principal {
   background-color: var(--Gris_claro);
-  
   margin: 20px;
 }
 .art {background-color: white;}
 .truck {
   color: var(--Verde);
-  padding: 20px;
+  text-align: right;
+  margin-right: 15px;
+  position: relative;
+  margin-bottom: -15px;
 }
 .truck i {    
   border: 1px solid;
   padding: 5px;
   border-radius: 30px;
+}
+
+.container-product {
+  border-top: 1px solid #ebebeb;
 }
 
 /* Footer */
@@ -187,3 +199,16 @@ a {
 .boton-borrar:hover {
   background-color: #CC1155;
 }
+
+@media (min-width: 361px) {
+	body {
+	
+  }
+}
+
+@media (min-width: 769px) {
+	body {
+	
+  }
+}
+
