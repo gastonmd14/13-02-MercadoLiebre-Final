@@ -5,25 +5,25 @@
     <%- include('../partials/headerNavbar') %>
     <main>
       <section>
-        <form action="" method="POST">
-          <section >
+        <form action="/" method="POST" class="form-register">
+          <section class="section1">
               <input type="text" placeholder="Nombre y Apellido">
               <input type="text" placeholder="Nombre de Usuario">
               <input type="email" placeholder="E-mail">
           </section>
-          <section>
+          <section class="section1">
               <p>Fecha de Nacimiento</p>
               <input type="date" name="" id="">
               <input type="text" placeholder="Domicilio">
           </section>                       
-          <section >
+          <section class="section2">
               <h3>Perfil del Usuario</h3>
               <input type="radio" name="perfil" value="comprador">
               <label for="comprador">Comprador</label>
               <input type="radio" name="perfil" value="vendedor">
               <label for="vendedor">Vendedor</label>  
           </section>
-          <section >
+          <section class="section2">
               <h3>Intereses</h3>
               <label for="electro">Electro</label>
               <input type="checkbox" name="electro" id="electro">
@@ -36,20 +36,19 @@
               <label for="vida_sana">Vida Sana</label>
               <input type="checkbox" name="vida_sana" id="vida_sana">
           </section>
-          <section >
+          <section class="section1">
               <h3>Elegi tu foto de usuario</h3>
               <input type="file" name="buscar" id="buscar">
           </section>
-          <section >
+          <section class="section3">
               <input type="password" name="contraseña" id="contraseña" placeholder="Elegi tu contraseña">
               <input type="password" name="contraseña" id="contraseña" placeholder="Confirma tu contraseña">
           </section>
-          <section>
-              <input type="submit" value="Enviar">
-              <input type="reset" value="Borrar">
+          <section class="section5">
+              <input type="submit" value="Enviar" class="boton-enviar">
+              <input type="reset" value="Borrar" class="boton-borrar">
           </section>                    
       </form>
-        
       </section>
     </main>
     <%- include('../partials/footer') %>

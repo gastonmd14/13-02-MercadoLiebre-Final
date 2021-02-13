@@ -1,3 +1,5 @@
+/* Global */
+
 :root{
   --Amarillo: #EAC926;
   --Azul: #03264C;
@@ -13,9 +15,12 @@
   font-family: 'Roboto', sans-serif;
 }
 
+/* Body */
+
 body {
-  background-color: white;
+  background-color: var(--Gris_claro);
 }
+
 
 .titles {
   font-size: 24px;
@@ -38,6 +43,7 @@ body {
   padding: 0 20px
 }
 
+/* Header */
 
 #encabezado {
   background-color: var(--Amarillo);
@@ -61,6 +67,9 @@ body {
   border-radius: 5px;
   margin: 20px 0;
 }
+
+/* Navbar */
+
 #navegacion :hover .nave {
   display: block;
 }
@@ -77,6 +86,8 @@ a {
   
 }
 
+/* Main */
+
 #principal {
   background-color: var(--Gris_claro);
   
@@ -87,9 +98,16 @@ a {
   color: var(--Verde);
   padding: 20px;
 }
+.truck i {    
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 30px;
+}
+
+/* Footer */
 
 #pie {
-  margin: 20px;
+  background-color: white;
 }
 
 .ico {
@@ -99,4 +117,73 @@ a {
 
 .copy {
   margin: 20px;
+}
+
+/* Register */
+
+.form-register {margin: 20px;}
+.section1 input {
+  display: block;
+  margin: 20px 0 ;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0px;
+}
+.section2 input {
+  margin: 20px;
+}
+.section3 {
+  margin: 20px 0;
+}
+.section3 input {
+  display: block;
+  margin: 20px 0 ;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0px;
+}
+.section5 input {
+  display: block;
+  margin: 20px 0 ;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+
+/* Login */
+
+.form-login {margin: 20px;}
+.section4 input {
+  display: block;
+  margin: 20px 0 ;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.boton-enviar {
+  background-color: #0044AA;
+  color: white;
+}
+
+.boton-enviar:hover {
+  background-color: #0022AA;
+}
+
+.boton-borrar {
+  background-color: #AA0044;
+  color: white;
+}
+
+.boton-borrar:hover {
+  background-color: #CC1155;
 }
